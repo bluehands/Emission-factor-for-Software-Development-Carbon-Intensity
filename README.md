@@ -28,7 +28,9 @@ The total CO<sub>2</sub>e emissions are calculated as described by the *GHG-Prot
   * Cloud DevOps services like Azure DevOps, GitHub, GitLab, Jira, etc.
 * Leased Assets as much as possible
 
-The Scope2 emissions MUST be calculated location based and NOT market based. That means that all power consumptions are calculated with the local power grid intensity (Average or time based).
+For goods with a long lifetime (Server, Workstations), the emissions balance sheet is based on financial depreciation.
+
+The Scope2 emissions MUST be calculated location based and NOT market based. That means that all power consumptions are calculated with the local power grid intensity (Average or time based). 
 
 Electricity which is directly produced by solar or wind and consumed is NOT counted. Only electricity that is purchased directly must be included in the calculation.
 
