@@ -42,6 +42,15 @@ For this emission factor only working hours are considered which are directly in
 
 The software development efforts must not be necessary billed. Open-Source projects, tools and spikes are also considered.  
 
+## Customer or project specific emission factor
+
+The above approach assumes that all customers or all projects have an equal share of emissions. To create a customer-specific emission factor, the total emissions are broken down - Emissions that can be allocated to a customer and all remaining emissions. Examples of directly allocated emissions are test systems or build environments.
+
+> EF<sub>Specific</sub> = CO<sub>2</sub>e<sub>Company nonspecific</sub> / h<sub>Software development</sub>
+
+> CO<sub>2</sub>e<sub>Customer</sub> = EF<sub>Specific</sub> * h<sub>Customer</sub> + CO<sub>2</sub>e<sub>Customer specific</sub>
+
+
 ## Contribution
 
 Every contribution is warmly welcome.
